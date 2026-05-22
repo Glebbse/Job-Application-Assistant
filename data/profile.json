@@ -1,0 +1,34 @@
+{
+  "target_roles": [
+    "Junior Python Developer",
+    "Backend Developer",
+    "AI Engineer Intern"
+  ],
+  "core_keywords": [
+    "python",
+    "backend",
+    "fastapi",
+    "postgresql"
+  ],
+  "supporting_keywords": [
+    "sql",
+    "rest api",
+    "docker",
+    "git",
+    "ai",
+    "remote"
+  ],
+  "preferred_locations": [
+    "remote",
+    "europe",
+    "usa",
+    "canada"
+  ],
+  "job_types": [
+    "remote",
+    "hybrid", 
+    "onsite"
+  ],
+  "minimum_core_matches": 2,
+  "minimum_supporting_matches": 1
+}
