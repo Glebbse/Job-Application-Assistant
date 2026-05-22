@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Junior Python Developer",
+    "company": "TechNova",
+    "location": "Remote",
+    "url": "https://example.com/job-1",
+    "description": "We are looking for a junior Python developer with Git, REST API, SQL, and Docker knowledge."
+  },
+  {
+    "title": "Senior Java Engineer",
+    "company": "EnterpriseSoft",
+    "location": "Berlin",
+    "url": "https://example.com/job-2",
+    "description": "We need a senior backend engineer with Java, Spring Boot, Kafka, and Kubernetes experience."
+  }
+]

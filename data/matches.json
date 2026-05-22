@@ -1,0 +1,21 @@
+[
+  {
+    "job": {
+      "title": "Junior Python Developer",
+      "company": "TechNova",
+      "location": "Remote",
+      "url": "https://example.com/job-1",
+      "description": "We are looking for a junior Python developer with Git, REST API, SQL, and Docker knowledge."
+    },
+    "analysis": {
+      "score": 50,
+      "matched_keywords": [
+        "python",
+        "sql",
+        "git",
+        "rest api",
+        "docker"
+      ]
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[project]
+name = "job-app-assistant"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Glebbse",email = "pearsebrosnan7@gmail.com"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai (>=2.37.0,<3.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "pydantic (>=2.13.4,<3.0.0)",
+    "httpx (>=0.28.1,<0.29.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ruff (>=0.15.13,<0.16.0)",
+    "mypy (>=2.1.0,<3.0.0)"
+]
