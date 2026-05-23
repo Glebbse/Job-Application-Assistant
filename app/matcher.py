@@ -1,8 +1,5 @@
-import json
-from pathlib import Path
 
-
-def score_job(cv_text, job, preferences: dict) -> dict:
+def score_job(*, cv_text, job, preferences: dict) -> dict:
     core_keywords = preferences["core_keywords"]
     supporting_keywords = preferences["supporting_keywords"]
     min_core_matches = preferences["minimum_core_matches"]

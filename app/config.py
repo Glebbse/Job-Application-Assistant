@@ -10,3 +10,4 @@ JOBS_PATH = os.getenv("JOBS_PATH", "data/sample_jobs.json")
 JOBS_MATCHES_PATH = os.getenv("JOBS_MATCHES_PATH", "data/matches.json")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 PROFILE_PATH = os.getenv("PROFILE_PATH", "data/profile.json")
+USE_MOCK_AI = os.getenv("USE_MOCK_AI", "true").lower() == "true"

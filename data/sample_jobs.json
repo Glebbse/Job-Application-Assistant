@@ -12,5 +12,12 @@
     "location": "Berlin",
     "url": "https://example.com/job-2",
     "description": "We need a senior backend engineer with Java, Spring Boot, Kafka, and Kubernetes experience."
+  },
+    {
+    "title": "Python Software Engineer",
+    "company": "TechAIConsulting",
+    "location": "Berlin",
+    "url": "https://tech_example.com/job-3",
+    "description": "We are looking for a Python backend engineer with strong foundation in buildingREST APIs, Pandas, FastAPI framework. big adbamtages if you have experience with AWS and Google Cloud. Remote work is possible for the right candidate."
   }
 ]
