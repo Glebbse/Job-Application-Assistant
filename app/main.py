@@ -1,21 +1,20 @@
 import json
 from pathlib import Path
 
+from importers.manual_json import load_jobs_from_json
 from storage import save_matches
 from matcher import score_job
 from config import CV_PATH, JOBS_PATH, JOBS_MATCHES_PATH, PROFILE_PATH, USE_MOCK_AI
 from ai_analyzer import analyze_job_with_ai, analyze_job_with_mock_ai
 from formatter import format_match_result
 from exceptions import format_ai_error
-from models import JobListing
 
 
 def main():
     matches = []
     cv = Path(CV_PATH).read_text(encoding="utf-8")
-    jobs_text = Path(JOBS_PATH).read_text(encoding="utf-8")
-    jobs_raw = json.loads(jobs_text)
-    jobs = [JobListing(**job) for job in jobs_raw]
+    jobs = load_jobs_from_json(JOBS_PATH)
+
     pref_text = Path(PROFILE_PATH).read_text(encoding="utf-8")
     preferences = json.loads(pref_text)
 
