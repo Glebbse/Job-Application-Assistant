@@ -1,3 +1,4 @@
+from models import JobListing
 
 
 def format_keyword_analysis(keyword_analysis: dict) -> str:
@@ -10,7 +11,7 @@ def format_keyword_analysis(keyword_analysis: dict) -> str:
     - Score: {keyword_analysis['keyword_score']}
     - Matched Core Keywords: {core_matches_text}
     - Matched Supporting Keywords: {supporting_matches_text}
-    - Passed Gate: {keyword_analysis['passed_gate']}"
+    - Passed Gate: {keyword_analysis['passed_gate']}
     """
 
 def format_ai_analysis(ai_analysis: dict) -> str:
@@ -29,19 +30,25 @@ def format_ai_analysis(ai_analysis: dict) -> str:
     - Application Advice: {ai_analysis.application_advice}
     """
 
-def format_match_result(job: dict, keyword_analysis: dict, ai_analysis: dict | None = None) -> str:
+def format_match_result(job: JobListing, keyword_analysis: dict, ai_analysis: dict | None = None, ai_error=None) -> str:
     lines = [
         "=" * 70,
-        f"Job Title: {job['title']} at {job['company']}",
-        f"Location: {job.get('location', 'Not provided')}",
-        f"URL: {job.get('url', 'Not provided')}",
+        f"Job Title: {job.title} at {job.company}",
+        f"Location: {job.location or 'Not provided'}",
+        f"URL: {job.url}",
         format_keyword_analysis(keyword_analysis)
     ]
-    
-    if ai_analysis is None:
+
+    if ai_error:
         lines.extend([
+            f"AI Analysis Error: {ai_error}"
+        ])
+    
+    elif ai_analysis is None:
+        lines.extend([  
             "Did not pass keyword gate, skipping AI analysis."
         ])
+
     else:
         lines.extend([format_ai_analysis(ai_analysis)])
 

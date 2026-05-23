@@ -1,11 +1,14 @@
 from openai import OpenAI
 import json
 
-from config import OPENAI_API_KEY
-from models import AIAnalysis
+from config import OPENAI_API_KEY, OPENAI_MODEL
+from models import AIAnalysis, JobListing
 
 
-def analyze_job_with_ai(*, cv_text: str, job: dict, preferences: dict) -> AIAnalysis:
+model=OPENAI_MODEL
+
+
+def analyze_job_with_ai(*, cv_text: str, job: JobListing, preferences: dict) -> AIAnalysis:
     if not OPENAI_API_KEY:
         raise ValueError("OPENAI_API_KEY not set. Skipping AI analysis.")
 
@@ -38,15 +41,14 @@ def analyze_job_with_ai(*, cv_text: str, job: dict, preferences: dict) -> AIAnal
     {json.dumps(preferences, indent=2)}
 
     Job listing:
-    {json.dumps(job, indent=2)}
+    {json.dumps(job.model_dump(), indent=2)}
     """
     
     response = client.responses.parse(
-        model="gpt-5.5", 
+        model=OPENAI_MODEL, 
         input=prompt, 
         text_format=AIAnalysis, 
         )
-
 
     return response.output_parsed
 

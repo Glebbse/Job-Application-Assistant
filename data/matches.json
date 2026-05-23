@@ -3,9 +3,12 @@
     "job": {
       "title": "Python Software Engineer",
       "company": "TechAIConsulting",
-      "location": "Berlin",
+      "description": "We are looking for a Python backend engineer with strong foundation in buildingREST APIs, Pandas, FastAPI framework. big adbamtages if you have experience with AWS and Google Cloud. Remote work is possible for the right candidate.",
+      "source": "manual sample",
       "url": "https://tech_example.com/job-3",
-      "description": "We are looking for a Python backend engineer with strong foundation in buildingREST APIs, Pandas, FastAPI framework. big adbamtages if you have experience with AWS and Google Cloud. Remote work is possible for the right candidate."
+      "location": "Madrid",
+      "country": "Spain",
+      "job_type": "onsite"
     },
     "keyword_analysis": {
       "keyword_score": 90,
@@ -22,21 +25,26 @@
       "passed_gate": true
     },
     "ai_analysis": {
-      "fit_score": 75,
-      "interview_chance_score": 60,
-      "recommendation": "maybe",
-      "summary": "The candidate has relevant experience but may lack some specific skills mentioned in the job listing.",
+      "fit_score": 83,
+      "interview_chance_score": 58,
+      "recommendation": "apply",
+      "summary": "Good technical match for a junior Python/backend profile: Python, backend work, REST APIs, and FastAPI are directly relevant, and remote work is possible. The main downside is that the role is listed as onsite in Madrid, which is less aligned with the candidate\u2019s remote preference, and the listing suggests a stronger backend profile than a true junior role. Still, it is worth applying because the core stack match is strong.",
       "strengths": [
-        "Relevant experience",
-        "Good communication skills"
+        "Strong overlap with Python, FastAPI, backend, and REST API experience",
+        "Remote work may be possible despite onsite listing",
+        "SQL and Docker are relevant supporting skills",
+        "Role aligns with candidate's junior backend direction"
       ],
       "gaps": [
-        "Lack of specific technical skill",
-        "Limited experience in the industry"
+        "Onsite in Madrid, while candidate prefers remote/europe/usa/canada",
+        "No explicit mention of junior level or internship",
+        "Pandas, AWS, and Google Cloud are mentioned as bonuses but are not in the candidate profile",
+        "Could be more competitive than an entry-level role"
       ],
-      "role_description": "We are looking for a Python backend engineer with strong foundation in buildingREST APIs, Pandas, FastAPI framework. big adbamtages if you have experience with AWS and Google Cloud. Remote work is possible for the right candidate.",
+      "role_description": "Python backend engineer focused on building REST APIs, using FastAPI and Pandas, with AWS and Google Cloud as advantages. Remote work may be possible.",
       "company_description": "TechAIConsulting",
-      "application_advice": "Consider applying if you can address the skill gap in your cover letter."
-    }
+      "application_advice": "Apply if the candidate is open to onsite or partial flexibility in Madrid. Tailor the resume toward FastAPI, REST APIs, backend work, and any API integration projects. Mention willingness to learn cloud tools and emphasize practical Python projects. If the candidate is strictly remote-only, this becomes a weaker option."
+    },
+    "ai_error": null
   }
 ]
