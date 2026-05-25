@@ -1,20 +1,20 @@
-from models import JobListing
+from models import AIAnalysis, JobListing, KeyWordAnalysisResult
 
 
-def format_keyword_analysis(keyword_analysis: dict) -> str:
-    core_matches = keyword_analysis['matched_core_keywords']
-    supporting_matches = keyword_analysis['matched_supporting_keywords']
+def format_keyword_analysis(keyword_analysis: KeyWordAnalysisResult) -> str:
+    core_matches = keyword_analysis.matched_core_keywords
+    supporting_matches = keyword_analysis.matched_supporting_keywords
     core_matches_text = ", ".join(core_matches) if core_matches else "None"
     supporting_matches_text = ", ".join(supporting_matches) if supporting_matches else "None"
     return f"""
     Keyword Analysis:
-    - Score: {keyword_analysis['keyword_score']}
+    - Score: {keyword_analysis.keyword_score}
     - Matched Core Keywords: {core_matches_text}
     - Matched Supporting Keywords: {supporting_matches_text}
-    - Passed Gate: {keyword_analysis['passed_gate']}
+    - Passed Gate: {keyword_analysis.passed_gate}
     """
 
-def format_ai_analysis(ai_analysis: dict) -> str:
+def format_ai_analysis(ai_analysis: AIAnalysis) -> str:
     strengths = ", ".join(f"{s}" for s in ai_analysis.strengths) 
     gaps = ", ".join(f"{g}" for g in ai_analysis.gaps)
     return f"""
@@ -30,7 +30,7 @@ def format_ai_analysis(ai_analysis: dict) -> str:
     - Application Advice: {ai_analysis.application_advice}
     """
 
-def format_match_result(job: JobListing, keyword_analysis: dict, ai_analysis: dict | None = None, ai_error=None) -> str:
+def format_match_result(job: JobListing, keyword_analysis: KeyWordAnalysisResult, ai_analysis: AIAnalysis | None = None, ai_error=None) -> str:
     lines = [
         "=" * 70,
         f"Job Title: {job.title} at {job.company}",

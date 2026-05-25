@@ -25,26 +25,26 @@
       "passed_gate": true
     },
     "ai_analysis": {
-      "fit_score": 72,
-      "interview_chance_score": 63,
-      "recommendation": "maybe",
-      "summary": "This is a fairly good match for a junior-to-mid backend Python profile. The role strongly aligns with Python, FastAPI, REST APIs, and remote work is possible, but it also asks for a stronger backend foundation and mentions Pandas and cloud experience that are not in the candidate CV. The onsite Madrid location is also less ideal than the candidate\u2019s remote preference, though remote may be negotiable.",
+      "fit_score": 78,
+      "interview_chance_score": 64,
+      "recommendation": "apply",
+      "summary": "Good match for a junior Python/backend profile. The role centers on Python, backend work, REST APIs, and FastAPI, which align well with the candidate\u2019s current stack. Remote is possible, though the listing is based in Madrid and marked onsite, so location flexibility may matter.",
       "strengths": [
-        "Strong overlap with Python and FastAPI",
-        "REST API experience matches well",
-        "Backend-oriented role fits the candidate\u2019s direction",
-        "Remote work is possible according to the listing"
+        "Strong overlap on Python and backend development",
+        "FastAPI and REST APIs match directly",
+        "SQL/Docker/Git are relevant supporting skills",
+        "Remote work is mentioned as possible",
+        "Role is not obviously too senior for a junior backend candidate"
       ],
       "gaps": [
-        "Onsite job in Madrid is less aligned with the candidate\u2019s remote preference",
-        "No PostgreSQL explicitly listed in the job, though SQL skills still help",
-        "AWS/Google Cloud experience not shown in CV",
-        "Pandas not in candidate skills",
-        "Could be more competitive if they want a candidate with stronger backend experience"
+        "No explicit PostgreSQL mention in the job",
+        "Pandas is listed but not in the candidate CV",
+        "AWS and Google Cloud are only advantages, not required, but could help",
+        "Listing says onsite in Madrid, which may conflict with the candidate\u2019s remote preference"
       ],
-      "role_description": "Python backend engineer focused on building REST APIs using FastAPI, with additional advantage for Pandas and cloud experience. Remote work may be possible for the right candidate.",
-      "company_description": "TechAIConsulting",
-      "application_advice": "Worth applying if the candidate wants a backend Python role and is open to a potentially hybrid/onsite arrangement. Emphasize FastAPI, REST APIs, SQL, Docker, and any backend project work. If remote is essential, clarify that early."
+      "role_description": "Python Software Engineer focused on backend development, REST APIs, FastAPI, and Pandas, with AWS/Google Cloud as advantages. Remote work may be possible for the right candidate.",
+      "company_description": "Not provided in listing",
+      "application_advice": "Apply if the candidate is comfortable with a potentially onsite role in Madrid or can negotiate remote. Emphasize FastAPI, REST API work, backend projects, and any SQL/Docker experience. If they have any exposure to Pandas or cloud basics, mention it clearly."
     },
     "ai_error": null
   }

@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 
+from models import SavedMatch
 from importers.manual_json import load_jobs_from_json
 from storage import save_matches
 from matcher import score_job
@@ -23,7 +24,7 @@ def main():
 
     for job in jobs:
         keyword_analysis = score_job(cv_text=cv, job=job, preferences=preferences)
-        if keyword_analysis["passed_gate"]:
+        if keyword_analysis.passed_gate:
             ai_analysis = None
             ai_error = None
             try:
@@ -35,16 +36,17 @@ def main():
                     ai_error = format_ai_error(e)
                     print(ai_error)
 
-            matches.append({
-                "job": job.model_dump(),
-                "keyword_analysis": keyword_analysis,
-                "ai_analysis": ai_analysis.model_dump() if ai_analysis else None,
-                "ai_error": ai_error
-                })
+            match = SavedMatch(
+                job=job,
+                keyword_analysis=keyword_analysis,
+                ai_analysis=ai_analysis,
+                ai_error=ai_error
+            )
+            matches.append(match)
             print(format_match_result(job=job, keyword_analysis=keyword_analysis, ai_analysis=ai_analysis))
 
 
-    save_matches(matches)
+    save_matches([match.model_dump() for match in matches], file_to_save=JOBS_MATCHES_PATH)
     print(f"Total matches found: {len(matches)}. Results saved to {JOBS_MATCHES_PATH}")
 
 

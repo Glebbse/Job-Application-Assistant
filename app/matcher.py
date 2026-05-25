@@ -1,4 +1,4 @@
-from models import JobListing
+from models import JobListing, KeyWordAnalysisResult
 
 
 
@@ -25,9 +25,8 @@ def score_job(*, cv_text, job: JobListing, preferences: dict) -> dict:
         + len(matched_supporting_keywords) * 10
     )
 
-    return {
-        "keyword_score": keyword_score,
-        "matched_core_keywords": matched_core_keywords,
-        "matched_supporting_keywords": matched_supporting_keywords,
-        "passed_gate": passed_gate,
-    }
+    return KeyWordAnalysisResult(
+        keyword_score=keyword_score,
+        matched_core_keywords=matched_core_keywords,
+        matched_supporting_keywords=matched_supporting_keywords,
+        passed_gate=passed_gate,)

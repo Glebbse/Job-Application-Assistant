@@ -22,3 +22,17 @@ class JobListing(BaseModel):
     location: str | None = None
     country: str | None = None
     job_type: Literal["remote", "onsite", "hybrid", "unknown"] = "unknown"
+
+
+class KeyWordAnalysisResult(BaseModel):
+    keyword_score: int = Field(ge=0)
+    matched_core_keywords: list[str]
+    matched_supporting_keywords: list[str]
+    passed_gate: bool
+
+
+class SavedMatch(BaseModel):
+    job: JobListing
+    keyword_analysis: KeyWordAnalysisResult
+    ai_analysis: AIAnalysis | None = None
+    ai_error: str | None = None
