@@ -1,8 +1,8 @@
 from openai import OpenAI
 import json
 
-from config import OPENAI_API_KEY, OPENAI_MODEL
-from models import AIAnalysis, JobListing
+from app.config import OPENAI_API_KEY, OPENAI_MODEL
+from app.models import AIAnalysis, JobListing
 
 
 model=OPENAI_MODEL
@@ -53,7 +53,7 @@ def analyze_job_with_ai(*, cv_text: str, job: JobListing, preferences: dict) -> 
     return response.output_parsed
 
 
-def analyze_job_with_mock_ai(*, cv_text: str, job: dict, preferences: dict) -> AIAnalysis:
+def analyze_job_with_mock_ai(*, cv_text: str, job: JobListing, preferences: dict) -> AIAnalysis:
     # This is a mock function to simulate AI analysis for testing purposes.
     return AIAnalysis(
         fit_score=75,
@@ -62,7 +62,7 @@ def analyze_job_with_mock_ai(*, cv_text: str, job: dict, preferences: dict) -> A
         summary="The candidate has relevant experience but may lack some specific skills mentioned in the job listing.",
         strengths=["Relevant experience", "Good communication skills"],
         gaps=["Lack of specific technical skill", "Limited experience in the industry"],
-        role_description=job.get("description", "Not provided in listing"),
-        company_description=job.get("company", "Not provided in listing"),
+        role_description=job.description or "Not provided in listing",
+        company_description=job.company or "Not provided in listing",
         application_advice="Consider applying if you can address the skill gap in your cover letter."
     )

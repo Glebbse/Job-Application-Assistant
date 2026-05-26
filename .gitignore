@@ -223,4 +223,5 @@ __marimo__/
 
 #Test-generated data
 data/test_*.json
+data/remotive_jobs_*.json
 tests/test_*.json

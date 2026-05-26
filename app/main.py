@@ -1,20 +1,23 @@
 import json
 from pathlib import Path
 
-from models import SavedMatch
-from importers.manual_json import load_jobs_from_json
-from storage import save_matches
-from matcher import score_job
-from config import CV_PATH, JOBS_PATH, JOBS_MATCHES_PATH, PROFILE_PATH, USE_MOCK_AI
-from ai_analyzer import analyze_job_with_ai, analyze_job_with_mock_ai
-from formatter import format_match_result
-from exceptions import format_ai_error
+from app.importers.remotive import fetch_remotive_jobs
+from app.models import SavedMatch
+from app.importers.manual_json import load_jobs_from_json
+from app.storage import save_json, save_matches
+from app.matcher import score_job
+from app.config import CV_PATH, JOB_SEARCH_QUERIES, JOBS_MATCHES_PATH, PROFILE_PATH, REMOTIVE_JOBS_PATH, USE_MOCK_AI
+from app.ai_analyzer import analyze_job_with_ai, analyze_job_with_mock_ai
+from app.formatter import format_match_result
+from app.exceptions import format_ai_error
 
 
 def main():
     matches = []
     cv = Path(CV_PATH).read_text(encoding="utf-8")
-    jobs = load_jobs_from_json(JOBS_PATH)
+    remotive_jobs = fetch_remotive_jobs(queries=JOB_SEARCH_QUERIES)
+    save_json([job.model_dump() for job in remotive_jobs], file_to_save=REMOTIVE_JOBS_PATH)
+    jobs = load_jobs_from_json(REMOTIVE_JOBS_PATH)
 
     pref_text = Path(PROFILE_PATH).read_text(encoding="utf-8")
     preferences = json.loads(pref_text)
