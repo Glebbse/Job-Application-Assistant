@@ -2,7 +2,7 @@ from pathlib import Path
 
 import json
 
-from models import JobListing
+from app.models import JobListing
 
 
 def load_jobs_from_json(file_path: str) -> list[JobListing]:

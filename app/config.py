@@ -12,3 +12,5 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 PROFILE_PATH = os.getenv("PROFILE_PATH", "data/profile.json")
 USE_MOCK_AI = os.getenv("USE_MOCK_AI", "true").lower() == "true"
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.4-mini")
+REMOTIVE_JOBS_PATH = os.getenv("REMOTIVE_JOBS_PATH", "data/remotive_jobs.json")
+JOB_SEARCH_QUERIES = os.getenv("JOB_SEARCH_QUERIES", "python,fastapi,backend").split(",")

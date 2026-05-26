@@ -1,8 +1,8 @@
-from models import JobListing, KeyWordAnalysisResult
+from app.models import JobListing, KeyWordAnalysisResult
 
 
 
-def score_job(*, cv_text, job: JobListing, preferences: dict) -> dict:
+def score_job(*, cv_text, job: JobListing, preferences: dict) -> KeyWordAnalysisResult:
     core_keywords = preferences["core_keywords"]
     supporting_keywords = preferences["supporting_keywords"]
     min_core_matches = preferences["minimum_core_matches"]

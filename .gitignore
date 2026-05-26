@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 .env
 .venv/
 __pycache__/
 *.pyc
-=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -222,4 +220,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
->>>>>>> ccf391a8a15b3eddf04e1d6d17e7f758d59a2da8
+
+#Test-generated data
+data/test_*.json
+
