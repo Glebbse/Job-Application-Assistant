@@ -21,4 +21,4 @@ def test_fetch_remotive_jobs_returns_jobs_live_api():
         assert job.url
 
     save_json([job.model_dump() for job in jobs], file_to_save="tests/test_remotive_jobs.json")
-    assert Path("data/test_remotive_jobs.json").exists()
+    assert Path("tests/test_remotive_jobs.json").exists()
