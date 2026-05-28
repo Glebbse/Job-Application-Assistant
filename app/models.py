@@ -24,7 +24,6 @@ class JobListing(BaseModel):
     location: str | None = None
     country: str | None = None
     job_type: Literal["remote", "onsite", "hybrid", "unknown"] = "unknown"
-    remote_id: int | None = None
     category: str | None = None
     tags: list[str] = Field(default_factory=list)
     publication_date: str | None = None

@@ -1,16 +1,18 @@
-from bs4 import BeautifulSoup
+#External Remotive API endpoint responds, but gives low-quality behaviour. 
+# The API returns a lot of irrelevant jobs, and doesn't seem to properly filter by category or search term. 
+# For example, searching for "python" returns many jobs that don't mention python at all. 
+# This makes it difficult to rely on the API for accurate job listings.
+
 import httpx
 
+from app.formatter import clean_html
 from app.models import JobListing
 
 
 BASE_URL = "https://remotive.com/api/remote-jobs"
 
 
-def clean_html(raw_html: str) -> str:
-    # Simple function to remove HTML tags from the description
-    soup = BeautifulSoup(raw_html, "html.parser")
-    return soup.get_text(separator=" ", strip=True)
+
 
 def fetch_remotive_jobs(*, queries: list[str]) -> list[JobListing]:
     all_raw_jobs = []

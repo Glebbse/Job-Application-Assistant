@@ -14,3 +14,5 @@ USE_MOCK_AI = os.getenv("USE_MOCK_AI", "true").lower() == "true"
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.4-mini")
 REMOTIVE_JOBS_PATH = os.getenv("REMOTIVE_JOBS_PATH", "data/remotive_jobs.json")
 JOB_SEARCH_QUERIES = os.getenv("JOB_SEARCH_QUERIES", "python,fastapi,backend,postgresql").split(",")
+REMOTEOK_JOBS_PATH = os.getenv("REMOTEOK_JOBS_PATH", "data/remoteok_jobs.json")
+REMOTEOK_JOBS_WITHOUT_FILTERS = os.getenv("REMOTEOK_JOBS_WITHOUT_FILTERS", "data/remoteok_jobs_samples.json")

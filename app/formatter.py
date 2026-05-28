@@ -1,5 +1,13 @@
+from bs4 import BeautifulSoup
+
 from app.models import AIAnalysis, JobListing, KeyWordAnalysisResult
 
+
+
+def clean_html(raw_html: str) -> str:
+    # Simple function to remove HTML tags from the description
+    soup = BeautifulSoup(raw_html, "html.parser")
+    return soup.get_text(separator=" ", strip=True)
 
 def format_keyword_analysis(keyword_analysis: KeyWordAnalysisResult) -> str:
     required_matches = keyword_analysis.matched_required_keywords

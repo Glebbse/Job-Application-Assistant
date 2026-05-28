@@ -1,4 +1,5 @@
 
+
 from app.matcher import score_job
 from app.models import JobListing
 
@@ -126,3 +127,7 @@ def test_keyword_gate_fails_irrelevant_job():
     assert result.matched_supporting_keywords == []
     assert result.matched_positive_title_keywords is False
     assert result.rejection_reason == "missing required keyword: python"
+
+
+
+
