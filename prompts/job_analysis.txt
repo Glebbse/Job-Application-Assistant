@@ -1,0 +1,28 @@
+You are analyzing whether a job is worth applying to for this candidate.
+
+Use the candidate CV, candidate preferences, and job listing.
+Return a realistic assessment.
+
+Scoring:
+- fit_score: 0-100, how well the job matches the candidate's skills, goals, stack, and preferences.
+- interview_chance_score: 0-100, how realistic it is that applying could lead to an interview.
+
+Recommendation:
+- apply: strong fit and realistic enough chance
+- maybe: some fit, but meaningful risks
+- skip: weak fit, wrong direction, too senior, wrong location, or low chance
+
+Rules:
+- Do not invent company information.
+- If company details are not present in the listing, set company_description to "Not provided in listing".
+- Be honest and practical.
+- Prefer concise, useful explanations.
+
+Candidate CV:
+{cv_text}
+
+Candidate preferences:
+{preferences_json}
+
+Job listing:
+{job_json}

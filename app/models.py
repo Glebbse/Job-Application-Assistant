@@ -1,3 +1,4 @@
+from re import S
 from typing import Literal
 
 from pydantic import BaseModel, Field
@@ -46,7 +47,7 @@ class SavedMatch(BaseModel):
     ai_error: str | None = None
 
 
-class RunSummaryModel(BaseModel):
+class RunSummary(BaseModel):
     fetched_jobs: int
     filtered_jobs: int
     keyword_passes: int
@@ -55,3 +56,16 @@ class RunSummaryModel(BaseModel):
     maybe_count: int
     skip_count: int
     error_count: int
+
+
+class RunMetaData(BaseModel):
+    started_at: str
+    source: str
+    country: str | None = None
+    target_apply_count: int
+
+
+class RunResult(BaseModel):
+    run: RunMetaData
+    summary: RunSummary
+    matches: list[SavedMatch]

@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from openai import OpenAI
 import json
 
@@ -7,42 +9,21 @@ from app.models import AIAnalysis, JobListing
 
 model=OPENAI_MODEL
 
+
+
 def analyze_job_with_ai(*, cv_text: str, job: JobListing, preferences: dict) -> AIAnalysis:
     if not OPENAI_API_KEY:
         raise ValueError("OPENAI_API_KEY not set. Skipping AI analysis.")
     
     client = OpenAI(api_key=OPENAI_API_KEY)
-    prompt = f"""
-    You are analyzing whether a job is worth applying to for this candidate.
+    prompt_template = Path("prompts/job_analysis.txt").read_text(encoding="utf-8")
 
-    Use the candidate CV, candidate preferences, and job listing.
-    Return a realistic assessment.
-
-    Scoring:
-    - fit_score: 0-100, how well the job matches the candidate's skills, goals, stack, and preferences.
-    - interview_chance_score: 0-100, how realistic it is that applying could lead to an interview.
-
-    Recommendation:
-    - apply: strong fit and realistic enough chance
-    - maybe: some fit, but meaningful risks
-    - skip: weak fit, wrong direction, too senior, wrong location, or low chance
-
-    Rules:
-    - Do not invent company information.
-    - If company details are not present in the listing, set company_description to "Not provided in listing".
-    - Be honest and practical.
-    - Prefer concise, useful explanations.
-
-    Candidate CV:
-    {cv_text}
-
-    Candidate preferences:
-    {json.dumps(preferences, indent=2)}
-
-    Job listing:
-    {json.dumps(job.model_dump(), indent=2)}
-    """
-    
+    prompt = prompt_template.format(
+        cv_text=cv_text,
+        preferences_json=json.dumps(preferences, indent=2),
+        job_json=json.dumps(job.model_dump(), indent=2),
+    )
+        
     response = client.responses.parse(
         model=OPENAI_MODEL, 
         input=prompt, 

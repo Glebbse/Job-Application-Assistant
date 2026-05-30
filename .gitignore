@@ -228,3 +228,8 @@ tests/test_*.json
 #JSON data samples
 data/remotive_jobs_*.json
 data/adzuna-samples.txt
+
+# personal data
+data/cv.md
+data/matches.json
+data/profile.json
