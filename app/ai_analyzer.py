@@ -7,11 +7,10 @@ from app.models import AIAnalysis, JobListing
 
 model=OPENAI_MODEL
 
-
 def analyze_job_with_ai(*, cv_text: str, job: JobListing, preferences: dict) -> AIAnalysis:
     if not OPENAI_API_KEY:
         raise ValueError("OPENAI_API_KEY not set. Skipping AI analysis.")
-
+    
     client = OpenAI(api_key=OPENAI_API_KEY)
     prompt = f"""
     You are analyzing whether a job is worth applying to for this candidate.

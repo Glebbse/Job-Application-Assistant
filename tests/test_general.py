@@ -39,9 +39,12 @@ def test_job_listing_accepts_valid_job():
 
 def test_keyword_gate_passes_relevant_python_backend_job():
     job = JobListing(
-        title="Python Backend Developer",
+        title="Backend Developer",
         company="Tech Company",
-        description="We are looking for a Python backend developer with experience in FastAPI.",
+        description=(
+            "We are looking for a Python backend developer with experience "
+            "in FastAPI and REST API services."
+        ),
         source="remotive",
         url="https://example.com/job/456",
         location="Remote",
@@ -56,28 +59,17 @@ def test_keyword_gate_passes_relevant_python_backend_job():
     cv_text = "Experienced Python developer with knowledge of FastAPI and backend development."
     preferences = {
         "required_keywords": ["python"],
-        "preferred_keywords": ["fastapi", "postgresql", "sqlalchemy", "backend"],
+        "preferred_keywords": ["fastapi", "postgresql", "sqlalchemy"],
         "supporting_keywords": ["django", "sql", "api"],
-        "positive_title_keywords": [
-            "junior", 
-            "backend", 
-            "entry level", 
-            "graduate", 
-            "intern", 
-            "software engineer",
-            "software developer",
-            "backend developer",
-            "python developer"
-        ],
         "excluded_description_keywords": ["senior", "manager", "lead"],
-        "minimum_preferred_matches": 2,
+        "minimum_preferred_matches": 1,
         "minimum_supporting_matches": 1
     }
     result = score_job(cv_text=cv_text, job=job, preferences=preferences)
     assert result.passed_gate is True
-    assert result.keyword_score == 80
+    assert result.keyword_score == 50
     assert set(result.matched_required_keywords) == {"python"}
-    assert set(result.matched_preferred_keywords) == {"fastapi", "backend"}
+    assert set(result.matched_preferred_keywords) == {"fastapi"}
     assert set(result.matched_supporting_keywords) == {"api"}
 
 def test_keyword_gate_fails_irrelevant_job():
@@ -87,18 +79,6 @@ def test_keyword_gate_fails_irrelevant_job():
         "required_keywords": ["python"],
         "preferred_keywords": ["fastapi", "postgresql", "sqlalchemy"],
         "supporting_keywords": ["sql", "rest api", "docker", "git", "ai", "remote"],
-        "positive_title_keywords": [
-            "junior", 
-            "backend", 
-            "entry level", 
-            "graduate", 
-            "intern", 
-            "software engineer",
-            "software developer",
-            "backend developer",
-            "python developer",
-            "python backend developer"
-        ],
         "excluded_description_keywords": ["senior", "manager", "lead"],
         "minimum_preferred_matches": 2,
         "minimum_supporting_matches": 1,
@@ -125,8 +105,7 @@ def test_keyword_gate_fails_irrelevant_job():
     assert result.matched_required_keywords == []
     assert result.matched_preferred_keywords == []
     assert result.matched_supporting_keywords == []
-    assert result.matched_positive_title_keywords is False
-    assert result.rejection_reason == "missing required keyword: python"
+    assert result.rejection_reason == "missing required keyword in description: python"
 
 
 

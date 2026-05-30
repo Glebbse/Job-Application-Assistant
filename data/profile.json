@@ -11,7 +11,10 @@
     "Software Development",
     "Information Technology", 
     "Backend Development", 
-    "Software Engineering"
+    "Software Engineering",
+    "IT",
+    "IT jobs",
+    "IT-jobs"
   ],
   "required_keywords":[
     "python"
@@ -25,7 +28,14 @@
     "pydantic",
     "oauth",
     "jwt",
-    "redis"
+    "redis",
+    "relational database",
+    "relational db",
+    "google services",
+    "google api",
+    "google cloud",
+    "gcp",
+    "aws"
   ],
   "supporting_keywords": [
     "sql",
@@ -33,10 +43,11 @@
     "docker",
     "git",
     "ai",
-    "api"
+    "api",
+    "backend",
+    "cloud"
   ],
   "preferred_locations": [
-    "remote",
     "europe",
     "usa",
     "canada",
@@ -63,9 +74,9 @@
     "python engineer"
   ],
   "excluded_description_keywords": [
-    "5+ years", 
     "7+ years", 
-    "10+ years"
+    "10+ years",
+    "Senior"
   ],
   "source_excluded_title_keywords": [
     "senior",
@@ -79,8 +90,9 @@
     "frontend",
     "video editor",
     "sales",
-    "marketing"
+    "marketing",
+    "java"
 ],
-  "minimum_preferred_matches": 1,
+  "minimum_preferred_matches": 0,
   "minimum_supporting_matches": 1
 }

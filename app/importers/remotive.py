@@ -11,9 +11,6 @@ from app.models import JobListing
 
 BASE_URL = "https://remotive.com/api/remote-jobs"
 
-
-
-
 def fetch_remotive_jobs(*, queries: list[str]) -> list[JobListing]:
     all_raw_jobs = []
     with httpx.Client(timeout=20) as client:
@@ -40,7 +37,6 @@ def fetch_remotive_jobs(*, queries: list[str]) -> list[JobListing]:
             location=job.get("candidate_required_location"),
             country=None,
             job_type="remote",
-            remote_id=job.get("id"),
             category=job.get("category"),
             tags=job.get("tags", []),
             publication_date=job.get("publication_date"),

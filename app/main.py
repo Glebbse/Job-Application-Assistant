@@ -1,15 +1,17 @@
 import argparse
 
 from app.config import JOBS_MATCHES_PATH
+from app.logging_config import setup_logging
 from app.workflow import analyze_jobs, fetch_jobs, run_full_pipeline
 
 def main():
+    setup_logging()
     parser = argparse.ArgumentParser(description="Job Application Assistant")
     commands = parser.add_mutually_exclusive_group(required=True)
     parser.add_argument(
         "--source",
-        choices=["remoteok", "remotive"],
-        default="remoteok", 
+        choices=["remoteok", "remotive", "adzuna"],
+        default="adzuna", 
         help="Job source to use"
     )
     commands.add_argument(

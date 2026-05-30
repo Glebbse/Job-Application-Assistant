@@ -13,18 +13,15 @@ def format_keyword_analysis(keyword_analysis: KeyWordAnalysisResult) -> str:
     required_matches = keyword_analysis.matched_required_keywords
     preferred_matches = keyword_analysis.matched_preferred_keywords
     supporting_matches = keyword_analysis.matched_supporting_keywords
-    positive_title_matches = keyword_analysis.matched_positive_title_keywords
     required_matches_text = ", ".join(required_matches) if required_matches else "None"
     preferred_matches_text = ", ".join(preferred_matches) if preferred_matches else "None"
     supporting_matches_text = ", ".join(supporting_matches) if supporting_matches else "None"
-    positive_title_matches_text = "Yes" if positive_title_matches else "No"
     return f"""
     Keyword Analysis:
     - Score: {keyword_analysis.keyword_score}
     - Matched Required Keywords: {required_matches_text}
     - Matched Preferred Keywords: {preferred_matches_text}
     - Matched Supporting Keywords: {supporting_matches_text}
-    - Matched Positive Title Keywords: {positive_title_matches_text}
     - Passed Gate: {keyword_analysis.passed_gate}
     - Rejection Reason: {keyword_analysis.rejection_reason or 'N/A'}
     """

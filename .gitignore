@@ -227,3 +227,4 @@ tests/test_*.json
 
 #JSON data samples
 data/remotive_jobs_*.json
+data/adzuna-samples.txt

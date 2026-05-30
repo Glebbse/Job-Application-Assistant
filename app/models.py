@@ -35,7 +35,6 @@ class KeyWordAnalysisResult(BaseModel):
     matched_required_keywords: list[str]
     matched_preferred_keywords: list[str]
     matched_supporting_keywords: list[str]
-    matched_positive_title_keywords: bool
     passed_gate: bool
     rejection_reason: str | None = None
 
@@ -45,3 +44,14 @@ class SavedMatch(BaseModel):
     keyword_analysis: KeyWordAnalysisResult
     ai_analysis: AIAnalysis | None = None
     ai_error: str | None = None
+
+
+class RunSummaryModel(BaseModel):
+    fetched_jobs: int
+    filtered_jobs: int
+    keyword_passes: int
+    ai_analyzed: int
+    apply_count: int
+    maybe_count: int
+    skip_count: int
+    error_count: int

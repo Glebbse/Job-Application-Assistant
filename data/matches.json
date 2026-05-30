@@ -1,1 +1,946 @@
-[]
+[
+  {
+    "job": {
+      "title": "Python Software Engineer",
+      "company": "Mercor",
+      "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Software Engineer Type: Contract Compensation: $100/hour Location: Remote Duration: 1 month Commitment: 20 hours/week Role Responsibilities Develop and maintain complex, production-grade Python systems for real-world environments. Design modul…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5698691044?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Ontario, Toronto",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-04-14T01:21:01Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 35,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 68,
+      "interview_chance_score": 35,
+      "recommendation": "maybe",
+      "summary": "The title matches the candidate’s target direction and the role is remote Python work, but it appears to be a short-term contract for a production-grade software engineer, which is likely more demanding than a junior candidate profile. Good keyword fit on Python/backend, weaker fit on seniority and likely experience expectations.",
+      "strengths": [
+        "Python Software Engineer title aligns with candidate’s target roles",
+        "Remote role matches the candidate’s preference",
+        "Python, backend, API, and production systems are relevant to the candidate’s skill set",
+        "Category is IT Jobs, which fits the candidate’s preferred areas"
+      ],
+      "gaps": [
+        "The listing sounds like a professional production-grade engineering role, not clearly junior or intern level",
+        "Short 1-month contract may be less suitable for a candidate seeking stable junior growth",
+        "No explicit mention of FastAPI, SQL, or other preferred stack keywords",
+        "Company details are limited, so it is harder to judge team fit and hiring likelihood"
+      ],
+      "role_description": "Remote contract Python Software Engineer role focused on developing and maintaining production-grade Python systems, 20 hours/week for 1 month.",
+      "company_description": "Mercor connects technical and creative talent with AI research labs; headquartered in San Francisco. Additional company details not provided in listing.",
+      "application_advice": "Apply if the candidate is comfortable aiming slightly above junior level and can present any real Python/backend project work. Emphasize Python, APIs, SQL, Docker, and any deployed or production-like experience. If the candidate wants strictly junior or long-term roles, this is more of a backup application than a primary target."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Python Software Engineer",
+      "company": "Mercor",
+      "description": "Job Description Job Description About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Software Engineer Type: Contract Compensation: $100/hour Location: Remote Duration: 1 month Commitment: 20 hours/week Role Responsibilities Develop and maintain complex, production-grade Python systems for real-…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5730220194?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Ontario, Toronto",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-05-15T05:45:15Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 35,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 42,
+      "interview_chance_score": 18,
+      "recommendation": "maybe",
+      "summary": "The title and Python/backend focus match the candidate, and the role is remote, but the listing strongly suggests a highly technical contract position aimed at elite talent for AI research labs. For a junior candidate learning backend development, this is likely too advanced and may be hard to convert into an interview.",
+      "strengths": [
+        "Python is the core language in the role title and description.",
+        "Remote work matches the candidate preference.",
+        "Backend/production Python systems align loosely with the candidate's FastAPI, SQL, REST API, and Docker exposure.",
+        "Category is IT Jobs, which fits the candidate's allowed categories."
+      ],
+      "gaps": [
+        "The role appears senior/production-grade and likely expects stronger experience than a junior candidate.",
+        "No clear junior, intern, or entry-level signal in the listing.",
+        "Short-term contract (1 month, 20 hours/week) may not match the candidate's stated junior-job search goals.",
+        "Mercor is described as connecting talent to AI research labs, which may imply a higher bar than the candidate profile.",
+        "No explicit mention of FastAPI, AI API integration, or the preferred databases/tools."
+      ],
+      "role_description": "Contract Python Software Engineer role focused on developing and maintaining production-grade Python systems for an AI-related environment. Remote, 1 month, 20 hours/week.",
+      "company_description": "Mercor connects technical and creative talent with AI research labs; headquartered in San Francisco, with investors listed in the posting.",
+      "application_advice": "Apply only if the candidate is comfortable with a likely stretch role and wants to test the market. Tailor the application toward Python backend projects, REST APIs, SQL, Docker, and any production code experience. If the goal is mainly junior/full-time backend work, this should be lower priority than clearer entry-level roles."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Ingénieur logiciel Python /Python Software Engineer",
+      "company": "Explorance",
+      "description": "Rejoignez une entreprise dont le siège social est à Montréal et qui aide des organisations du monde entier à créer des parcours personnalisés d’impact et d’épanouissement pour leurs employés. Chez Explorance, nous croyons que chaque expérience compte. Grâce à des solutions novatrices en analytique de la rétroaction (Feedback Analytics), nous permettons aux organisations de mieux écouter, d’agir plus rapidement et de générer un changement significatif. À titre d’Ingénieur·e senior Python et syst…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5614273911?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Québec, Montréal, Westmount",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-02-04T14:13:11Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 45,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai",
+        "api"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 22,
+      "interview_chance_score": 8,
+      "recommendation": "skip",
+      "summary": "This is a Python role, but the listing explicitly indicates a senior-level position. That makes it a poor match for a candidate who is learning backend development and targeting junior/intern roles. The location is also in Montreal, while the candidate prefers remote jobs and specific regions. There may be Python relevance, but the seniority gap is the main issue.",
+      "strengths": [
+        "Python is the core language required.",
+        "Backend-adjacent experience with FastAPI, SQL, REST API, Docker, and Git is relevant to the stack family.",
+        "The title matches a positive keyword: Python Software Engineer."
+      ],
+      "gaps": [
+        "Listing suggests senior Python engineer level, which conflicts with the candidate's junior profile.",
+        "No evidence the role is remote; location is Montreal, Canada.",
+        "Job description is incomplete, so the exact stack and requirements are unclear.",
+        "Likely too advanced for a candidate still learning backend development and AI API integration."
+      ],
+      "role_description": "Python Software Engineer role at Explorance, a Montreal-based company in Canada working on feedback analytics and employee experience solutions. The listing suggests a senior Python engineering position.",
+      "company_description": "Explorance is described in the listing as a Montreal-based company that provides feedback analytics solutions to help organizations improve employee experiences.",
+      "application_advice": "I would skip this one unless the full posting surprisingly shows junior or intermediate requirements. The senior-level wording makes interview odds very low for a junior candidate. Focus on roles that explicitly say junior, intern, graduate, or entry-level Python/backend developer, ideally remote."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Python Backend Developer",
+      "company": "Orbiq",
+      "description": "We are a dynamic and innovative software development company working on high-profile projects in the automotive industry. Our current projects are closely related to MediaMarktSaturn’s digital platforms. We are looking for a skilled Python Backend Developer to join our team and help us build and maintain cutting-edge solutions. Objectives: We are collaborating with MediaMarktSaturn, one of the leading consumer electronics retailers in Europe, on a project focused on enhancing security. This pro…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5504221382?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Ontario, Toronto",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2025-11-19T18:06:22Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 55,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "git",
+        "ai",
+        "backend"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 55,
+      "interview_chance_score": 48,
+      "recommendation": "maybe",
+      "summary": "The title and stack are a good directional match for a junior Python backend candidate, but the listing is thin and likely implies a more experienced backend role. Canada/Toronto is also less aligned than the candidate’s preferred remote/Europe/USA focus. Worth applying only if the candidate is open to relocation or Canadian roles.",
+      "strengths": [
+        "Strong title match: Python Backend Developer",
+        "Matches core skills: Python, backend, REST API, SQL, Docker",
+        "Category fits the candidate’s IT/software background",
+        "Could be a reasonable step for someone learning backend development"
+      ],
+      "gaps": [
+        "No clear indication that the role is junior or internship level",
+        "Likely higher expectations given 'skilled' language and project context",
+        "Location is Toronto, Canada rather than remote or the candidate’s preferred regions",
+        "Company details are limited, so role scope and stack are uncertain"
+      ],
+      "role_description": "Python Backend Developer role at Orbiq in Toronto, Canada, working on software projects related to automotive industry and MediaMarktSaturn digital platforms, with a security-focused project mentioned in the listing.",
+      "company_description": "Not provided in listing",
+      "application_advice": "Apply only if the candidate is comfortable with a potentially mid-level backend role and Canada-based opportunity. The match is good on title and tech stack, but the listing lacks junior signals, so the interview odds are moderate rather than strong."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Backend Python Developer – AI Agentic Applications",
+      "company": "grep Technologies",
+      "description": "Backend Python Developer – AI Agentic Applications Location: Montréal, QC (Hybrid) Type: Full-Time Compensation: Competitive, based on experience About the Role We are seeking a curious, highly motivated Backend Python Developer to join our growing AI development team. You will work on cutting-edge agentic AI applications —including chatbots and intelligent assistants—designed to transform the way our clients interact with data and insights. This role offers the opportunity to contribute to end…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5365210157?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Québec, Montréal",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2025-08-23T05:49:48Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 45,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai",
+        "backend"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 88,
+      "interview_chance_score": 72,
+      "recommendation": "apply",
+      "summary": "Strong match for a junior-to-mid backend Python profile with AI/API interest. The title and description align well with Python backend work and AI agentic applications, which fits the candidate's learning direction. Main drawback is the Montreal hybrid location, since the candidate prefers remote roles, but the role itself is highly relevant.",
+      "strengths": [
+        "Python backend focus matches the candidate's core skills",
+        "AI / agentic applications align with the candidate's interest in AI API integration",
+        "Positive title keywords: Backend, Python Developer",
+        "Supporting skills likely relevant: REST API, SQL, Docker, Git",
+        "Category fits the candidate's allowed IT/software development areas"
+      ],
+      "gaps": [
+        "Hybrid role in Montréal, which is less aligned with the candidate's remote preference",
+        "No explicit mention of junior level or internship, so competition may include more experienced candidates",
+        "Company details are limited in the listing",
+        "No stack details like FastAPI/PostgreSQL mentioned in the snippet"
+      ],
+      "role_description": "Backend Python Developer working on AI agentic applications such as chatbots and intelligent assistants in a hybrid Montréal, QC role.",
+      "company_description": "Not provided in listing",
+      "application_advice": "Apply if the candidate is open to hybrid work in Montréal or can realistically commute/relocate. This is one of the better matches because it combines Python backend development with AI application work. Tailor the application to highlight Python, FastAPI, REST APIs, SQL, Docker, and any AI/API integration projects."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "URGENT NEED - Python Developer with Fast API : Mississauga, ON, Canada (Hybrid)",
+      "company": "Futran Solutions Inc",
+      "description": "Role: Python Developer with Fast API Location: Mississauga, ON, Canada (Hybrid) Job Type: Full-time About the Role: We are looking for a motivated and detail-oriented Python developer with 6-8 years of experience to join our development team. The ideal candidate will contribute to designing, developing and optimizing business process automation solutions and data driven solutions, leveraging cutting-edge AI technologies and modern containerization practices to build scalable and resilient appli…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5736616153?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Ontario, Peel region, Mississauga",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-05-21T13:06:18Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 45,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai",
+        "api"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 35,
+      "interview_chance_score": 12,
+      "recommendation": "skip",
+      "summary": "The role uses Python and FastAPI, which matches the candidate’s learning direction, but it is clearly aimed at 6-8 years of experience and is hybrid in Mississauga, Canada rather than remote. That makes it a poor fit for a junior candidate despite the relevant stack.",
+      "strengths": [
+        "Python and FastAPI are directly relevant",
+        "Mentions AI technologies and containerization, which align somewhat with the candidate’s interests",
+        "Backend/data-driven solution work matches the candidate’s general direction"
+      ],
+      "gaps": [
+        "Experience requirement of 6-8 years is far above junior level",
+        "Hybrid location in Mississauga does not match the candidate’s remote preference",
+        "Likely expects stronger backend production experience than the candidate has",
+        "No clear junior/intern framing in the title or description"
+      ],
+      "role_description": "Python Developer with FastAPI for business process automation and data-driven solutions, using AI technologies and modern containerization practices. Full-time hybrid role in Mississauga, Ontario, Canada.",
+      "company_description": "Not provided in listing",
+      "application_advice": "Only apply if you are open to a long shot and want interview practice, but realistically this is too senior for a junior profile. Better to focus on junior/entry-level remote Python backend roles with explicit junior or intern requirements."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Python Developer with Fast API / Mississauga, ON (Hybrid) - Full Time Permanent",
+      "company": "Acestack",
+      "description": "Role: Python Developer with Fast API Location: Mississauga, ON (Hybrid) Experience 8 Position Type: Fulltime About the Role We are looking for a motivated and detail-oriented Python developer with 8 years of experience to join our development team. The ideal candidate will contribute to designing, developing and optimizing business process automation solutions and data driven solutions, leveraging cutting-edge AI technologies and modern containerization practices to build scalable and resilient…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5737751010?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Ontario, Peel region, Mississauga",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-05-22T12:59:10Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 45,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai",
+        "api"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 30,
+      "interview_chance_score": 8,
+      "recommendation": "skip",
+      "summary": "This is a Python/FastAPI backend role, which matches the candidate’s general direction and some of their stack. However, it explicitly asks for 8 years of experience, which is far above a junior profile and makes this a poor practical match.",
+      "strengths": [
+        "Python and FastAPI are directly relevant.",
+        "Backend/API and containerization themes align with the candidate’s learning focus.",
+        "Category and title fit the candidate’s general target area."
+      ],
+      "gaps": [
+        "Experience requirement is 8 years, while the candidate is junior.",
+        "Hybrid in Mississauga, ON may not fit a remote preference.",
+        "Likely expects deeper production backend and AI/containerization experience than the candidate has.",
+        "No company details beyond the name are provided."
+      ],
+      "role_description": "Python Developer with Fast API role focused on business process automation and data-driven solutions using AI and containerization in a full-time hybrid position in Mississauga, Ontario.",
+      "company_description": "Not provided in listing",
+      "application_advice": "Only apply if you are intentionally stretching and want practice; otherwise skip and focus on junior or intern backend roles with 0-2 years experience or explicit entry-level wording."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Python Developer",
+      "company": "Jose Merciline",
+      "description": "Division: Technology Job Position: Python Developer Contract Type: Contingent/Contract Assignments are available as PAYE only/Contract via third party supplier Proposed Contingent Assignment Duration: 12 months *Please ensure candidates are uploaded to Fieldglass at base pay rate excluding holiday pay accrual* We are looking for Python developer with experience developing a multi-tier web application including back-end enterprise software and infrastructure management tools. Primary Responsibil…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5727163562?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Québec, Montréal",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-05-12T16:36:28Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 35,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 72,
+      "interview_chance_score": 45,
+      "recommendation": "maybe",
+      "summary": "Good title and stack match for a junior Python/backend candidate, but the posting sounds more experienced and the location is Montreal, Canada. The role is contract-based and mentions multi-tier web apps, enterprise software, and infrastructure tools, which may be beyond a learning-stage profile.",
+      "strengths": [
+        "Title matches the candidate's target role: Python Developer.",
+        "Python is required and explicitly present in the CV.",
+        "Backend-related work aligns with FastAPI, SQL, REST API, Docker, and Git experience.",
+        "Category fits the candidate's allowed IT/software preferences."
+      ],
+      "gaps": [
+        "The description suggests more advanced experience with enterprise back-end software and infrastructure management tools.",
+        "No explicit junior, intern, or entry-level signal in the listing.",
+        "Location is Canada; this may be less ideal unless the candidate can work there remotely or relocate.",
+        "Contract role may be less stable than a permanent junior position."
+      ],
+      "role_description": "Python Developer contract role focused on multi-tier web applications, back-end enterprise software, and infrastructure management tools.",
+      "company_description": "Not provided in listing",
+      "application_advice": "Apply if the candidate is open to contract work and can handle a somewhat more advanced backend role. The title and core stack are relevant enough to be worth trying, but tailor the CV to emphasize FastAPI, SQL, REST APIs, Docker, and any backend project work. If remote work or Canada eligibility is uncertain, that is the main risk."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Python Developer",
+      "company": "Jose Merciline",
+      "description": "Description: We are looking for a proficient Python developer to join one of our existing agile squad. Ideally, coming from a Java or structured language background, the candidate should be capable of developing and integrating Python libraries and code. The candidate will work on building a classification assistant leveraging semantic data (Knowledge Graph and Knowledge Base) and AI technologies such as NLP and Machine Learning. Prior experience in the domains of ontologies and semantic modeli…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5727220775?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Québec, Montréal",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-05-12T16:41:44Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 35,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 68,
+      "interview_chance_score": 46,
+      "recommendation": "maybe",
+      "summary": "Good title and domain match for a junior Python/backend candidate, with Python and AI-related work that aligns with your interests. However, the role seems to expect a stronger background in Java or another structured language plus knowledge of NLP/ML and semantic technologies, which is a meaningful gap for your current profile.",
+      "strengths": [
+        "Python developer role matches your target path",
+        "Uses AI technologies, NLP, and Machine Learning, which aligns with your AI interest",
+        "Backend/API-adjacent work with integrating Python libraries and code",
+        "Category is IT Jobs and title is directly relevant",
+        "Location is in Canada, which matches your preferred regions"
+      ],
+      "gaps": [
+        "Prefers candidates coming from Java or structured language background",
+        "Mentions semantic data, knowledge graphs, ontologies, and semantic modeling, which are not in your CV",
+        "No explicit FastAPI, SQL, Docker, or backend stack match in the listing",
+        "Could be more specialized than a typical junior backend role",
+        "Company details are limited, so it is harder to judge fit and credibility"
+      ],
+      "role_description": "Python Developer working in an agile squad to develop and integrate Python libraries/code for a classification assistant using semantic data, knowledge graphs, knowledge bases, NLP, and machine learning.",
+      "company_description": "Not provided in listing",
+      "application_advice": "Apply if you want to stretch into AI/NLP-adjacent Python work, but tailor your CV to emphasize Python, APIs, backend learning, and any AI integration experience. If you have no Java/structured-language background or no exposure to ML/NLP, expect this to be a lower-probability application rather than a strong match."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Python Developer",
+      "company": "Cognizant",
+      "description": "About The Role As a Python Developer , you will make an impact by building, enhancing, and supporting scalable applications and automated solutions that improve reliability, performance, and delivery speed. You will be a valued member of a collaborative technology team and work closely with product owners, engineers, and business stakeholders to deliver high-quality solutions. In This Role, You Will Design, develop, and maintain full-stack applications using Python and modern front-end framewor…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5716249280?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Nova Scotia, Halifax region",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-05-01T17:26:07Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 35,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 58,
+      "interview_chance_score": 52,
+      "recommendation": "maybe",
+      "summary": "This is a relevant Python backend-style role and matches the candidate’s core stack reasonably well, especially Python, REST APIs, SQL, and Docker. The main drawback is that the listing hints at full-stack work and does not show clear junior or remote-friendly signals, so it is a decent but not ideal match.",
+      "strengths": [
+        "Title matches the candidate’s core skill: Python Developer.",
+        "Python, backend, and scalable application work align with the candidate’s learning direction.",
+        "Supporting skills like SQL, REST API, Docker, and Git are relevant.",
+        "Category is IT Jobs, which fits the candidate’s target area."
+      ],
+      "gaps": [
+        "Job appears to involve full-stack applications, while the candidate is primarily backend-focused.",
+        "Location is Canada; candidate prefers remote and is open to Canada, but remote status is not stated.",
+        "No clear indication that this is junior or intern level.",
+        "No explicit mention of FastAPI, databases, or AI/API integration in the listing.",
+        "Company description is not available from the listing."
+      ],
+      "role_description": "Python Developer role focused on building, enhancing, and supporting scalable applications and automated solutions, with mention of full-stack application development using Python and modern front-end frameworks.",
+      "company_description": "Not provided in listing",
+      "application_advice": "Apply if the candidate is comfortable with broader Python application work beyond pure backend and is open to Canada-based roles. Tailor the resume toward Python backend projects, APIs, SQL, Docker, and any automation or AI integration work. If the candidate wants strictly junior remote backend roles, this is still worth applying to, but not a top-priority match."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Sr. Python Developer",
+      "company": "IntelliPro Group Inc.",
+      "description": "Job Title: Sr. Python Developer (Pyspark) Position Type: Contract Location: Mississauga, ON Pay Rate: $45-$50 per hour (CAD) Job ID: JR1030902 Job Description: At least 10 years of Experience in Python development Must have hands-on experience in Python and Pyspark Experience in Python testing and code analysis tools like Pytest and Pylint At least 5 years of fulltime development experience using Python. At least 5 years working with tSQL, XML and enterprise schedulers Proficient understanding …",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5510316624?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Ontario, Peel region, Mississauga",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2025-11-23T07:57:01Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 35,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "sql"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 15,
+      "interview_chance_score": 8,
+      "recommendation": "skip",
+      "summary": "This is a senior contract Python role requiring 10+ years of Python experience, PySpark, and several years of tSQL/XML/scheduler work. The candidate is a junior Python/backend learner, so the gap is very large despite the Python keyword match.",
+      "strengths": [
+        "Contains Python, which matches the candidate's core language",
+        "IT/backend-adjacent category"
+      ],
+      "gaps": [
+        "Senior-level role explicitly requiring 10+ years of Python experience",
+        "Requires PySpark, Pytest/Pylint, tSQL, XML, and enterprise schedulers that are not in the candidate profile",
+        "Location is Mississauga, Canada, not clearly remote",
+        "Contract role, which may not match the candidate's junior target direction"
+      ],
+      "role_description": "Senior Python Developer (Pyspark) contract role in Mississauga, Ontario focused on Python, PySpark, testing/code analysis tools, and enterprise data/workflow tooling.",
+      "company_description": "IntelliPro Group Inc.",
+      "application_advice": "Do not prioritize this application. The role is far above the candidate's experience level and has several missing technical requirements. Only consider it if you want to test the market, but expect a very low interview probability."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Python Developer – GenAI",
+      "company": "Astra North Infoteck Inc.",
+      "description": "Python Developer – GenAI Responsibilities Build Python‑based GenAI services using prompt‑engineering techniques for: Functional and regression test case generation Negative, boundary, and edge‑case coverage Secure code analysis and vulnerability remediation guidance Design, test, and optimize prompt strategies for accuracy, determinism, and repeatability in enterprise environments. Integrate GenAI workflows with CI/CD , test frameworks, and security tooling. Implement guardrails to mitigate hal…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5716695671?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Ontario, Toronto",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-05-02T02:37:54Z",
+      "salary": "10000-None"
+    },
+    "keyword_analysis": {
+      "keyword_score": 35,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 45,
+      "interview_chance_score": 30,
+      "recommendation": "maybe",
+      "summary": "The role matches Python and API work, and the candidate’s interest in AI API integration is relevant. However, it looks more like a specialized GenAI role focused on prompt engineering, test generation, security tooling, and CI/CD integration than a junior backend position. The candidate’s current profile is more junior backend-focused, so this is a partial fit with some skill gaps.",
+      "strengths": [
+        "Python is the core language in the role.",
+        "AI/GenAI is relevant to the candidate’s stated learning direction.",
+        "REST API, backend, and Docker/Git skills support some of the integration work.",
+        "Location is Canada, which is within the candidate’s preferred regions."
+      ],
+      "gaps": [
+        "Likely expects GenAI/prompt-engineering and security tooling experience, which is not shown in the CV.",
+        "Not clearly a junior or intern role; could be more specialized than the candidate’s target roles.",
+        "No explicit FastAPI, SQL, or backend service framework details in the listing.",
+        "The salary field looks unusual/incomplete, so compensation clarity is low."
+      ],
+      "role_description": "Python Developer focused on GenAI services, prompt engineering, test case generation, security analysis, and integration with CI/CD, test frameworks, and security tooling.",
+      "company_description": "Not provided in listing",
+      "application_advice": "Apply only if the candidate wants to move toward GenAI and is comfortable presenting this as a learning opportunity. Tailor the resume toward Python backend work, API integration, and any AI-related projects. If the goal is strictly junior backend roles, this is probably not the best target."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Python Developer Remote",
+      "company": "Mercor",
+      "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Software Engineer Type: Contract Compensation: $100/hour Location: Remote Duration: 1 month Commitment: 20 hours/week Role Responsibilities Develop and maintain complex, production-grade Python systems for real-world environments. Design modul…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5706864594?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Ontario, Toronto",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-04-22T01:09:56Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 35,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 62,
+      "interview_chance_score": 28,
+      "recommendation": "maybe",
+      "summary": "The role matches the candidate’s Python backend direction and remote preference, but it looks much more advanced than a junior entry-level position. The listing emphasizes production-grade systems and calls the role Software Engineer, which may be hard to compete for with a junior profile.",
+      "strengths": [
+        "Python is the core language in the role",
+        "Remote work matches the candidate preference",
+        "Backend/API-oriented work aligns with FastAPI, SQL, REST API, Docker background",
+        "Short contract could be attractive for gaining experience"
+      ],
+      "gaps": [
+        "The job sounds mid-level or higher, not clearly junior",
+        "No explicit mention of FastAPI, SQL, or AI API integration in the listing",
+        "'Production-grade Python systems' suggests strong prior experience is expected",
+        "Contract duration is only 1 month, which may reduce stability and value for a junior candidate"
+      ],
+      "role_description": "Remote contract Python Software Engineer role focused on developing and maintaining production-grade Python systems, with 20 hours/week for 1 month.",
+      "company_description": "Mercor connects technical and creative talent with AI research labs and is headquartered in San Francisco.",
+      "application_advice": "Apply only if the candidate is comfortable being evaluated as a capable junior who can write solid Python and learn quickly. Tailor the resume to emphasize backend projects, FastAPI, SQL, Docker, and any production or API integration work. Expect competition from more experienced Python developers."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Python Developer (Contract)",
+      "company": "GSL Group",
+      "description": "←Back to all jobs at GSL Group Python Developer (Contract) We innovate | We have tenacity |We empower | We get things done | We are unique |We have fun You are a skilled Python Developer with exceptional attention to detail, strong communication skills, and the ability to proactively support strategic initiatives, day-to-day operations, and product growth. You thrive in a fast-paced, data-driven environment and enjoy solving complex technical challenges that directly impact user experience and …",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5728405032?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, British Columbia, Greater Vancouver, Vancouver, Gastown",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-05-13T16:54:37Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 35,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 72,
+      "interview_chance_score": 58,
+      "recommendation": "apply",
+      "summary": "This is a solid junior-to-mid Python opportunity on paper: the title matches, Python is explicit, and the role is in an IT category. The main downside is that the listing is vague and sounds more demanding than a typical junior role, plus it is in Vancouver rather than the candidate’s preferred remote setup. Still, the candidate’s Python/FastAPI/SQL/REST/Docker background is relevant enough to justify applying.",
+      "strengths": [
+        "Python is the core skill in the listing.",
+        "Title matches the candidate's target role well.",
+        "IT/Software-type category aligns with candidate preferences.",
+        "Candidate has supporting backend skills: SQL, REST API, Docker, Git.",
+        "Could be a reasonable stepping-stone role for backend experience."
+      ],
+      "gaps": [
+        "Job description is vague and may hide stronger experience expectations.",
+        "Location is Vancouver onsite/hybrid rather than remote.",
+        "No clear mention of FastAPI, databases, or junior level.",
+        "Could be more competitive if it requires proven production experience.",
+        "Contract role may be less ideal if the candidate wants long-term stability."
+      ],
+      "role_description": "Python Developer (Contract) focused on supporting strategic initiatives, day-to-day operations, and product growth in a fast-paced, data-driven environment.",
+      "company_description": "GSL Group",
+      "application_advice": "Apply if the candidate is open to Vancouver or contract work. Tailor the resume toward Python backend work, APIs, SQL, and any project examples. If the candidate needs remote-only or clearly junior roles, this is still worth a try but not a top priority."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Sr. Python Developer",
+      "company": "IntelliPro Group Inc.",
+      "description": "Job Description Job Description Job Title: Sr. Python Developer (Pyspark) Position Type: Contract Location: Mississauga, ON Pay Rate: $45-$50 per hour (CAD) Job ID: JR1030902 Job Description: At least 10 years of Experience in Python development Must have hands-on experience in Python and Pyspark Experience in Python testing and code analysis tools like Pytest and Pylint At least 5 years of fulltime development experience using Python. At least 5 years working with tSQL, XML and enterprise sche…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5721526508?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Ontario, Peel region, Mississauga",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-05-07T05:27:19Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 35,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "sql"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 8,
+      "interview_chance_score": 3,
+      "recommendation": "skip",
+      "summary": "This is a senior Python role focused on Pyspark and enterprise-scale experience, while the candidate is a junior Python/backend developer. The title and requirements are a strong mismatch, and the location is Canada rather than remote. It is not a practical application target.",
+      "strengths": [
+        "Python is a required keyword and core skill",
+        "Backend/programming experience is directionally relevant"
+      ],
+      "gaps": [
+        "Senior-level title with 10+ years required",
+        "Pyspark is required but not in the candidate's CV",
+        "Testing tools like Pytest and Pylint are not listed",
+        "tSQL and enterprise development experience are missing",
+        "Location is Mississauga, Canada with no remote indication"
+      ],
+      "role_description": "Senior Python Developer contract role in Mississauga, Ontario focused on Python, Pyspark, testing/code analysis tools, and enterprise development.",
+      "company_description": "IntelliPro Group Inc.",
+      "application_advice": "Skip this one and focus on junior or mid-level Python backend roles, especially remote positions that mention FastAPI, REST APIs, SQL, and Docker."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Python Developer  Pricing",
+      "company": "Jay Analytix",
+      "description": "Job Description Job Description Role Overview We are seeking a Python Developer with experience in pricing models and banking systems to build, enhance, and support applications used for valuation, risk analysis, and trading. The role involves working closely with front-office, risk, and quantitative teams to deliver scalable and accurate financial solutions. Key Responsibilities Develop and maintain pricing libraries for financial instruments such as Derivative (finance), bonds, and structured…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5740338231?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Québec, Montréal",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-05-25T05:49:57Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 35,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 52,
+      "interview_chance_score": 28,
+      "recommendation": "maybe",
+      "summary": "The role matches the candidate’s Python backend direction at a basic level, but the listing is focused on pricing models, banking systems, valuation, risk, and trading, which suggests a more specialized finance/quant role than a junior backend role. The candidate has the right core language and backend basics, but lacks evidence of finance domain experience or quantitative pricing work.",
+      "strengths": [
+        "Python is the main required language",
+        "Title includes 'Python Developer' and the job is in an IT category",
+        "Could leverage general backend/API/SQL skills if the team values foundational development ability"
+      ],
+      "gaps": [
+        "Requires experience with pricing models and banking systems, which is not in the CV",
+        "Likely expects financial instruments and quantitative/valuation domain knowledge",
+        "No evidence of production backend experience beyond learning stage",
+        "Location is Canada, which may be fine, but remote is not specified"
+      ],
+      "role_description": "Python Developer focused on pricing models and banking systems for valuation, risk analysis, and trading applications.",
+      "company_description": "Not provided in listing",
+      "application_advice": "Apply only if you are open to finance/quant work and can frame your Python, SQL, FastAPI, and API experience as transferable. Expect competition from candidates with banking, risk, or pricing-system backgrounds. If you want a junior backend role without finance specialization, this is probably not the best match."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "R/Python Developer",
+      "company": "Insight Global",
+      "description": "Job Description Insight Global is looking for a developer to help a large financial services firm migrate jobs and reports from \"R\" to Python. They must be extremely strong in both technologies. In addition they must have strong documentation skills to be able to thoroughly explain their scripting. Design, develop, and test advanced reports by refactoring existing R code into Python and other relevant formats. Optimize scripts and scheduled jobs for greater efficiency and reliability, and suppo…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/land/ad/5730086193?se=Pns-bxxc8RG1g60cORqbZQ&utm_medium=api&utm_source=262ed97d&v=569CAE940B1804EC8E70A994233A4714BCA354A7",
+      "location": "Canada, Ontario, Toronto",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-05-15T01:23:50Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 35,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 35,
+      "interview_chance_score": 18,
+      "recommendation": "skip",
+      "summary": "The role is Python-related and in IT, but it is not a good match for a junior candidate. The listing requires being extremely strong in both R and Python, plus documentation and refactoring of existing R code for a financial services firm. That is more specialized than the candidate’s current backend-focused profile and likely above junior level.",
+      "strengths": [
+        "Python is required and matches the candidate’s core language",
+        "IT/software category aligns with the candidate’s background",
+        "The role involves scripting, APIs, and code refactoring, which are adjacent to backend skills"
+      ],
+      "gaps": [
+        "Requires strong R experience, which is not listed in the candidate CV",
+        "Not a junior or internship role; sounds more specialized and likely mid-level",
+        "Focus is on migrating reports and refactoring scripts, not backend API development",
+        "Location is Toronto, Canada; remote is not stated and the candidate prefers remote roles",
+        "Strong documentation expectations may be a hurdle if the candidate has not highlighted this skill"
+      ],
+      "role_description": "Developer role for a financial services firm migrating jobs and reports from R to Python, with responsibilities around refactoring code, designing and testing reports, and optimizing scripts and scheduled jobs.",
+      "company_description": "Insight Global",
+      "application_advice": "Only apply if you actually have strong R experience and can demonstrate report migration/refactoring work. Otherwise, this is likely to be a low-probability application for a junior Python/backend candidate."
+    },
+    "ai_error": null
+  },
+  {
+    "job": {
+      "title": "Python Developer Remote",
+      "company": "Mercor",
+      "description": "Job Description Job Description About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Software Engineer Type: Contract Compensation: $100/hour Location: Remote Duration: 1 month Commitment: 20 hours/week Role Responsibilities Develop and maintain complex, production-grade Python systems for real-…",
+      "source": "adzuna",
+      "url": "https://www.adzuna.ca/details/5737480357?utm_medium=api&utm_source=262ed97d",
+      "location": "Canada, Ontario, Toronto",
+      "country": "ca",
+      "job_type": "unknown",
+      "category": "IT Jobs",
+      "tags": [
+        "it-jobs"
+      ],
+      "publication_date": "2026-05-22T05:36:41Z",
+      "salary": null
+    },
+    "keyword_analysis": {
+      "keyword_score": 35,
+      "matched_required_keywords": [
+        "python"
+      ],
+      "matched_preferred_keywords": [],
+      "matched_supporting_keywords": [
+        "ai"
+      ],
+      "passed_gate": true,
+      "rejection_reason": null
+    },
+    "ai_analysis": {
+      "fit_score": 58,
+      "interview_chance_score": 22,
+      "recommendation": "maybe",
+      "summary": "The title and core stack fit the candidate well: Python, remote, backend-oriented work, and an AI-adjacent company. However, the listing sounds more like a short-term contract for experienced developers than a junior entry role, and the description says 'production-grade Python systems,' which may be beyond a junior profile. The company is remote-friendly, but the job is posted in Canada/Toronto and the duration is only 1 month with 20 hours/week, so it may be a narrow fit.",
+      "strengths": [
+        "Python is the central requirement",
+        "Remote role matches the candidate preference",
+        "Backend/production Python work aligns with current skills",
+        "AI-labs adjacent company context may fit the candidate's AI API interest",
+        "Includes supporting skills like REST/API and backend work"
+      ],
+      "gaps": [
+        "Likely not junior-level; sounds more experienced and production-focused",
+        "Very short contract duration (1 month) may not suit someone seeking a stable junior role",
+        "No explicit mention of FastAPI, SQL, or the candidate's preferred backend stack",
+        "Location is Canada/Toronto in a Canadian posting, which may affect eligibility or expectations",
+        "No company details beyond the brief listing, so role scope is hard to verify"
+      ],
+      "role_description": "Remote contract Software Engineer/Python Developer role focused on developing and maintaining production-grade Python systems. 20 hours/week for 1 month.",
+      "company_description": "Mercor connects technical and creative talent with AI research labs; headquartered in San Francisco.",
+      "application_advice": "Apply only if you are comfortable with a short contract and can demonstrate solid Python experience beyond beginner level. Tailor the application toward Python backend work, APIs, and any production or AI integration projects. If you need a true junior/full-time backend role, this is probably not the best target."
+    },
+    "ai_error": null
+  }
+]
