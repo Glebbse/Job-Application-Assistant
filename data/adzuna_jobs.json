@@ -112,43 +112,11 @@
     "salary": null
   },
   {
-    "title": "URGENT NEED - Python Developer with Fast API : Mississauga, ON, Canada (Hybrid)",
-    "company": "Futran Solutions Inc",
-    "description": "Role: Python Developer with Fast API Location: Mississauga, ON, Canada (Hybrid) Job Type: Full-time About the Role: We are looking for a motivated and detail-oriented Python developer with 6-8 years of experience to join our development team. The ideal candidate will contribute to designing, developing and optimizing business process automation solutions and data driven solutions, leveraging cutting-edge AI technologies and modern containerization practices to build scalable and resilient appli…",
-    "source": "adzuna",
-    "url": "https://www.adzuna.ca/details/5736616153?utm_medium=api&utm_source=262ed97d",
-    "location": "Canada, Ontario, Peel region, Mississauga",
-    "country": "ca",
-    "job_type": "unknown",
-    "category": "IT Jobs",
-    "tags": [
-      "it-jobs"
-    ],
-    "publication_date": "2026-05-21T13:06:18Z",
-    "salary": null
-  },
-  {
-    "title": "Python Developer with Fast API / Mississauga, ON (Hybrid) - Full Time Permanent",
-    "company": "Acestack",
-    "description": "Role: Python Developer with Fast API Location: Mississauga, ON (Hybrid) Experience 8 Position Type: Fulltime About the Role We are looking for a motivated and detail-oriented Python developer with 8 years of experience to join our development team. The ideal candidate will contribute to designing, developing and optimizing business process automation solutions and data driven solutions, leveraging cutting-edge AI technologies and modern containerization practices to build scalable and resilient…",
-    "source": "adzuna",
-    "url": "https://www.adzuna.ca/details/5737751010?utm_medium=api&utm_source=262ed97d",
-    "location": "Canada, Ontario, Peel region, Mississauga",
-    "country": "ca",
-    "job_type": "unknown",
-    "category": "IT Jobs",
-    "tags": [
-      "it-jobs"
-    ],
-    "publication_date": "2026-05-22T12:59:10Z",
-    "salary": null
-  },
-  {
     "title": "Associate Software Engineer",
     "company": "Sony Pictures Entertainment",
     "description": "Sony Pictures Imageworks is located on the unceded traditional territory of the Musqueam, Squamish, and Tsleil-Waututh First Nations. We are committed to respecting traditional lands, and working with communities towards reconciliation. Sony Pictures Imageworks Canada Inc. 658 Homer Street., Suite 405, Vancouver, BC, V6B 2R4 Language in work environment - English Benefits per company policy: include healthcare, tuition reimbursement, RRSP's, Sick and Vacation leave, standard increases as applic…",
     "source": "adzuna",
-    "url": "https://www.adzuna.ca/land/ad/5691771565?se=HOLCbhxc8RG1g60cORqbZQ&utm_medium=api&utm_source=262ed97d&v=E6C45F78AF7665784F1DDEFCAA0FB2147E94CC86",
+    "url": "https://www.adzuna.ca/details/5691771565?utm_medium=api&utm_source=262ed97d",
     "location": "Canada, British Columbia, Greater Vancouver",
     "country": "ca",
     "job_type": "unknown",
@@ -157,6 +125,22 @@
       "it-jobs"
     ],
     "publication_date": "2026-04-07T00:59:46Z",
+    "salary": null
+  },
+  {
+    "title": "Python Developer",
+    "company": "Trident Staff",
+    "description": "This is a remote position. Role Overview We are seeking a Senior Python Developer with 8 years of experience to design, develop, and maintain high-performance backend systems, automated workflows, and data processing pipelines. In this role, you will evaluate existing application architectures and implement scalable cloud solutions that support our enterprise data strategies. Contract Details Position Type: Contract (1 Year) Pay Rate: (Incorporated) Candidates must be currently located in Canad…",
+    "source": "adzuna",
+    "url": "https://www.adzuna.ca/details/5745255931?utm_medium=api&utm_source=262ed97d",
+    "location": "Canada, Alberta, Calgary region, Calgary, Calgary Tower",
+    "country": "ca",
+    "job_type": "unknown",
+    "category": "IT Jobs",
+    "tags": [
+      "it-jobs"
+    ],
+    "publication_date": "2026-05-30T01:13:01Z",
     "salary": null
   },
   {
@@ -225,22 +209,6 @@
   },
   {
     "title": "Python Developer",
-    "company": "Cognizant",
-    "description": "About The Role As a Python Developer , you will make an impact by building, enhancing, and supporting scalable applications and automated solutions that improve reliability, performance, and delivery speed. You will be a valued member of a collaborative technology team and work closely with product owners, engineers, and business stakeholders to deliver high-quality solutions. In This Role, You Will Design, develop, and maintain full-stack applications using Python and modern front-end framewor…",
-    "source": "adzuna",
-    "url": "https://www.adzuna.ca/details/5716249280?utm_medium=api&utm_source=262ed97d",
-    "location": "Canada, Nova Scotia, Halifax region",
-    "country": "ca",
-    "job_type": "unknown",
-    "category": "IT Jobs",
-    "tags": [
-      "it-jobs"
-    ],
-    "publication_date": "2026-05-01T17:26:07Z",
-    "salary": null
-  },
-  {
-    "title": "Python Developer",
     "company": "Syntronic",
     "description": "Join Syntronic: Where Your Innovation Shapes the Future At Syntronic, we don't just follow industry trends—we set them! Join us in partnering with visionary companies and the brightest minds to turn ground-breaking ideas into reality. Imagine working on cutting-edge telecom advancements, pioneering automotive tech, life-saving healthcare innovations, and next-gen industrial automation. Our projects are diverse, impactful, and at the forefront of technological innovation. Be a part of something …",
     "source": "adzuna",
@@ -285,54 +253,6 @@
       "it-jobs"
     ],
     "publication_date": "2025-11-23T07:57:01Z",
-    "salary": null
-  },
-  {
-    "title": "Python Developer – GenAI",
-    "company": "Astra North Infoteck Inc.",
-    "description": "Python Developer – GenAI Responsibilities Build Python‑based GenAI services using prompt‑engineering techniques for: Functional and regression test case generation Negative, boundary, and edge‑case coverage Secure code analysis and vulnerability remediation guidance Design, test, and optimize prompt strategies for accuracy, determinism, and repeatability in enterprise environments. Integrate GenAI workflows with CI/CD , test frameworks, and security tooling. Implement guardrails to mitigate hal…",
-    "source": "adzuna",
-    "url": "https://www.adzuna.ca/details/5716695671?utm_medium=api&utm_source=262ed97d",
-    "location": "Canada, Ontario, Toronto",
-    "country": "ca",
-    "job_type": "unknown",
-    "category": "IT Jobs",
-    "tags": [
-      "it-jobs"
-    ],
-    "publication_date": "2026-05-02T02:37:54Z",
-    "salary": "10000-None"
-  },
-  {
-    "title": "Python Developer Remote",
-    "company": "Mercor",
-    "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Software Engineer Type: Contract Compensation: $100/hour Location: Remote Duration: 1 month Commitment: 20 hours/week Role Responsibilities Develop and maintain complex, production-grade Python systems for real-world environments. Design modul…",
-    "source": "adzuna",
-    "url": "https://www.adzuna.ca/details/5706864594?utm_medium=api&utm_source=262ed97d",
-    "location": "Canada, Ontario, Toronto",
-    "country": "ca",
-    "job_type": "unknown",
-    "category": "IT Jobs",
-    "tags": [
-      "it-jobs"
-    ],
-    "publication_date": "2026-04-22T01:09:56Z",
-    "salary": null
-  },
-  {
-    "title": "Java/Python developer",
-    "company": "Jose Merciline",
-    "description": "Title : Java/Python developer Web engineering team is looking for a Java/Python developer for building web hosting platform. The candidate should have strong technical abilities and interpersonal skills to work with teams across divisions and geographies. The candidate will explore various web related technologies and implement solutions for diverse set of user requirements. The candidate will communicate and work with application owners across the firm regularly. The candidate's day-to-day res…",
-    "source": "adzuna",
-    "url": "https://www.adzuna.ca/details/5727093648?utm_medium=api&utm_source=262ed97d",
-    "location": "Canada, Québec, Montréal",
-    "country": "ca",
-    "job_type": "unknown",
-    "category": "IT Jobs",
-    "tags": [
-      "it-jobs"
-    ],
-    "publication_date": "2026-05-12T16:28:35Z",
     "salary": null
   },
   {
@@ -388,7 +308,7 @@
     "company": "Insight Global",
     "description": "Job Description Insight Global is looking for a developer to help a large financial services firm migrate jobs and reports from \"R\" to Python. They must be extremely strong in both technologies. In addition they must have strong documentation skills to be able to thoroughly explain their scripting. Design, develop, and test advanced reports by refactoring existing R code into Python and other relevant formats. Optimize scripts and scheduled jobs for greater efficiency and reliability, and suppo…",
     "source": "adzuna",
-    "url": "https://www.adzuna.ca/land/ad/5730086193?se=Pns-bxxc8RG1g60cORqbZQ&utm_medium=api&utm_source=262ed97d&v=569CAE940B1804EC8E70A994233A4714BCA354A7",
+    "url": "https://www.adzuna.ca/details/5730086193?utm_medium=api&utm_source=262ed97d",
     "location": "Canada, Ontario, Toronto",
     "country": "ca",
     "job_type": "unknown",
@@ -416,11 +336,11 @@
     "salary": null
   },
   {
-    "title": "Java / Python Developer",
-    "company": "Jose Merciline",
-    "description": "Description: Our Company Digital Marketing Infrastructure Engineering team is seeking an enthusiastic and highly motivated engineer for the delivery, administration and tooling of next-generation digital marketing solutions for the firm. We currently support the Adobe Experience Manager as well as tools from the Adobe Experience Cloud but we are continuously looking for the leading solutions in the space. The tools span: • Web content management tools used for content authoring and delivery of …",
+    "title": "Python Developer - Onsite Interview",
+    "company": "Epitria Consulting",
+    "description": "We are looking for an experienced Python Developer to join our client in Montreal, QC for a full-time hybrid opportunity (3 days onsite). Onsite Interview Experience in years : 7 Mandatory The ideal candidate will have strong expertise in building scalable RESTful APIs using FastAPI, SQLModel, Redis, and PostgreSQL, along with hands-on experience in asynchronous programming, containerized environments, and event-driven architectures. This role requires a strong engineering mindset, problem-solv…",
     "source": "adzuna",
-    "url": "https://www.adzuna.ca/details/5727161795?utm_medium=api&utm_source=262ed97d",
+    "url": "https://www.adzuna.ca/details/5730088453?utm_medium=api&utm_source=262ed97d",
     "location": "Canada, Québec, Montréal",
     "country": "ca",
     "job_type": "unknown",
@@ -428,15 +348,15 @@
     "tags": [
       "it-jobs"
     ],
-    "publication_date": "2026-05-12T16:36:19Z",
+    "publication_date": "2026-05-15T01:26:09Z",
     "salary": null
   },
   {
-    "title": "Python Developer Remote",
-    "company": "Mercor",
-    "description": "Job Description Job Description About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Software Engineer Type: Contract Compensation: $100/hour Location: Remote Duration: 1 month Commitment: 20 hours/week Role Responsibilities Develop and maintain complex, production-grade Python systems for real-…",
+    "title": "Full Stack Python Developer",
+    "company": "Fulfillment IQ",
+    "description": "Role Title: Full Stack Python Developer Location: Toronto, ON Employment Type: Full-Time (Onsite/Hybrid) Reports to: Head of IT & Engineering from the IT Team Role Overview: We’re looking for a skilled Full Stack Python Developer who excels in creating seamless, end-to-end solutions. Your expertise in Python, cloud technologies, and modern JavaScript frameworks will drive innovative projects that meet both technical and business needs. If you enjoy solving complex problems, writing high-quality…",
     "source": "adzuna",
-    "url": "https://www.adzuna.ca/details/5737480357?utm_medium=api&utm_source=262ed97d",
+    "url": "https://www.adzuna.ca/details/5746375063?utm_medium=api&utm_source=262ed97d",
     "location": "Canada, Ontario, Toronto",
     "country": "ca",
     "job_type": "unknown",
@@ -444,7 +364,7 @@
     "tags": [
       "it-jobs"
     ],
-    "publication_date": "2026-05-22T05:36:41Z",
+    "publication_date": "2026-05-31T05:46:13Z",
     "salary": null
   },
   {
@@ -512,22 +432,6 @@
     "salary": null
   },
   {
-    "title": "Java Backend Developer",
-    "company": "Sapsol Technologies Inc",
-    "description": "Key Responsibilities Design, develop, and maintain backend services using Core Java and Spring Boot Build and manage Microservices-based architecture Develop and consume RESTful APIs Work with SQL and/or NoSQL databases for data storage and retrieval Collaborate with frontend developers, DevOps teams, and stakeholders Optimize application performance, scalability, and security Participate in code reviews, testing, and deployment processes Troubleshoot and resolve production issues  Required Ski…",
-    "source": "adzuna",
-    "url": "https://www.adzuna.ca/details/5685954340?utm_medium=api&utm_source=262ed97d",
-    "location": "Canada, Ontario, Peel region, Mississauga",
-    "country": "ca",
-    "job_type": "unknown",
-    "category": "IT Jobs",
-    "tags": [
-      "it-jobs"
-    ],
-    "publication_date": "2026-04-01T15:21:33Z",
-    "salary": "100000-125000"
-  },
-  {
     "title": ".NET Backend Developer",
     "company": "Futuretek",
     "description": ".NET Backend Developer (with Hardware Integration Experience) Location: Toronto >>> on site / in office Monday to Friday Position Overview: We are seeking a skilled .NET Backend Developer with experience in hardware integration. In this role, you will focus on developing and maintaining backend services using C# (.NET), and integrating peripheral devices such as printers, bill validators, and buttons via communication protocols like RS232 and USB. This position requires strong problem-solving s…",
@@ -560,11 +464,11 @@
     "salary": null
   },
   {
-    "title": "Java Backend Developer",
-    "company": "Tangentia",
-    "description": "Role: Java Backend Developer Location: Toronto, ON 4 Days work from office and 1 day work from home Must have B.S. degree in Computer Science or related technical field (e.g. EE, physics or mathematics), or equivalent practical experience. 2 years of experience writing code in a backend development language (Java/NodeJS). Experienced with Spring Boot for building and configuring backend services 2 year of experience developing distributed cloud applications (OpenShift, Docker, Azure) Experience…",
+    "title": ".NET Backend Developer",
+    "company": "Cognizant",
+    "description": "We are seeking a highly skilled .NET Backend Developer to join our dynamic and innovative technology team. The successful candidate will play a crucial role in designing, developing, and maintaining robust backend systems that power our web and enterprise applications. As a .NET Backend Developer, you will collaborate closely with cross-functional teams including frontend developers, product managers, and quality assurance engineers to deliver high-quality software solutions that meet business …",
     "source": "adzuna",
-    "url": "https://www.adzuna.ca/details/5664102712?utm_medium=api&utm_source=262ed97d",
+    "url": "https://www.adzuna.ca/details/5743136848?utm_medium=api&utm_source=262ed97d",
     "location": "Canada, Ontario, Toronto",
     "country": "ca",
     "job_type": "unknown",
@@ -572,23 +476,7 @@
     "tags": [
       "it-jobs"
     ],
-    "publication_date": "2026-03-13T16:20:56Z",
-    "salary": null
-  },
-  {
-    "title": "Java Backend Developer",
-    "company": "Citigroup",
-    "description": "The Java Backend Developer is an intermediate level position responsible for participation in the establishment and implementation of new or revised application systems and programs in coordination with the Technology team. The overall objective of this role is to contribute to applications systems analysis and programming activities. Responsibilities: Conduct tasks related to feasibility studies, time and cost estimates, IT planning, risk technology, applications development, model development…",
-    "source": "adzuna",
-    "url": "https://www.adzuna.ca/land/ad/5702242692?se=EpvHbxxc8RGbGvW-bcCcHA&utm_medium=api&utm_source=262ed97d&v=096260321102DA46779C0684D6488EDD9900557D",
-    "location": "Canada, Ontario, Peel region, Mississauga",
-    "country": "ca",
-    "job_type": "unknown",
-    "category": "IT Jobs",
-    "tags": [
-      "it-jobs"
-    ],
-    "publication_date": "2026-04-17T01:28:46Z",
+    "publication_date": "2026-05-28T01:28:25Z",
     "salary": null
   },
   {
@@ -669,6 +557,22 @@
       "it-jobs"
     ],
     "publication_date": "2026-05-24T06:00:58Z",
+    "salary": null
+  },
+  {
+    "title": "Intern - Computer Engineering (AI): Intelligent Agent Development for Optimization (Fall 2026)",
+    "company": "Bombardier",
+    "description": "Innovation is in our DNA is it in yours? Bombardier is a global leader in aviation, creating innovative and game-changing planes. Our products and services provide world-class experiences that set new standards in passenger comfort, energy efficiency, reliability and safety. We are a global organization focused on working together with a team spirit. Your boarding pass will include Several conferences, including:  Meet An Executive  Women Taking Flight Learning more about Bombardier, including:…",
+    "source": "adzuna",
+    "url": "https://www.adzuna.ca/details/5741971137?utm_medium=api&utm_source=262ed97d",
+    "location": "Canada, Québec, Montréal, Dorval",
+    "country": "ca",
+    "job_type": "unknown",
+    "category": "IT Jobs",
+    "tags": [
+      "it-jobs"
+    ],
+    "publication_date": "2026-05-27T01:24:49Z",
     "salary": null
   }
 ]

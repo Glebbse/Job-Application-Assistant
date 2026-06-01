@@ -1,4 +1,3 @@
-from re import S
 from typing import Literal
 
 from pydantic import BaseModel, Field
@@ -50,7 +49,6 @@ class SavedMatch(BaseModel):
 class RunSummary(BaseModel):
     fetched_jobs: int
     filtered_jobs: int
-    keyword_passes: int
     ai_analyzed: int
     apply_count: int
     maybe_count: int
@@ -62,7 +60,7 @@ class RunMetaData(BaseModel):
     started_at: str
     source: str
     country: str | None = None
-    target_apply_count: int
+    target_apply_count: int # goal to have applied jobs per day
 
 
 class RunResult(BaseModel):

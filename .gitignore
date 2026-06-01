@@ -233,3 +233,7 @@ data/adzuna-samples.txt
 data/cv.md
 data/matches.json
 data/profile.json
+data/matches
+
+# run files
+data/runs
