@@ -235,5 +235,7 @@ data/matches.json
 data/profile.json
 data/matches
 
+# exported files
+exports/
 # run files
 data/runs

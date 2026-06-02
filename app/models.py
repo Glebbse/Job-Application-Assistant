@@ -66,4 +66,3 @@ class RunMetaData(BaseModel):
 class RunResult(BaseModel):
     run: RunMetaData
     summary: RunSummary
-    matches: list[SavedMatch]

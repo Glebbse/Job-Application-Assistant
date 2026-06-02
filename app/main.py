@@ -1,8 +1,11 @@
 import argparse
+from typing import DefaultDict
 
 from app.config import LAST_JOBS_MATCHES_PATH
 from app.logging_config import setup_logging
 from app.workflow import analyze_jobs, fetch_jobs, run_full_pipeline
+from app.exporterss.export_xlsx import export_country_macthes_to_xlsx
+
 
 def main():
     setup_logging()
@@ -14,6 +17,13 @@ def main():
         default="adzuna", 
         help="Job source to use"
     )
+    parser.add_argument(
+        "--country", 
+        choices=["ca", "nz", "usa", "gb"], 
+        default="ca", 
+        help="Country to export matches"
+    )
+
     commands.add_argument(
         "--fetch-jobs",
         action="store_true",
@@ -28,6 +38,11 @@ def main():
         "--run-pipeline",
         action="store_true",
         help="Run full pipeline: fetch jobs and analyze them",
+    )
+    commands.add_argument(
+        "--export-xlsx", 
+        action="store_true", 
+        help="Export job to .xlsx file"
     )
 
     args = parser.parse_args()
@@ -49,6 +64,11 @@ def main():
             "Pipeline complete. "
             f"Fetched and analyzed jobs, saved {len(result.matches)} matches to {LAST_JOBS_MATCHES_PATH}, result is added to directory: data/matches/by_country"
         )
+
+    elif args.export_xlsx:
+        print(f"Exporting macthes from coutry {args.country} to xlsx...")
+        export_country_macthes_to_xlsx(country=args.country)
+        print("Matches exported to file!")
 
 if __name__ == "__main__":
     main()

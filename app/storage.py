@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from app.config import JOBS_MATCHES_PATH
+from app.config import LAST_JOBS_MATCHES_PATH
 from app.models import SavedMatch
 
 
@@ -9,7 +9,7 @@ def save_json(data, file_to_save: str):
     path.parent.mkdir(parents=True, exist_ok=True)
     Path(file_to_save).write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
-def save_matches(matches, file_to_save=JOBS_MATCHES_PATH):
+def save_matches(matches, file_to_save=LAST_JOBS_MATCHES_PATH):
     save_json(matches, file_to_save=file_to_save)
 
 def save_matches_by_country(*, matches: list[SavedMatch], country: str) -> None:
