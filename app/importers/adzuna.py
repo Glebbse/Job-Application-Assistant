@@ -3,8 +3,10 @@ import logging
 
 
 from app.formatter import clean_html
+from app.job_filtering import filter_jobs_by_profile
 from app.models import JobListing
-from app.config import ADZUNA_APP_ID, ADZUNA_APP_KEY
+from app.config import ADZUNA_APP_ID, ADZUNA_APP_KEY, ADZUNA_COUNTRIES
+from app.storage import save_json
 
 
 logger = logging.getLogger(__name__)
@@ -74,7 +76,7 @@ def fetch_adzuna_jobs(*, country: str = "ca", queries: list[str], page: int = 1,
             location=job["location"], 
             country=country, 
             job_type="unknown", 
-            category=job["category"].get("label", "None"), 
+            category=job["category"].get("label", "IT-jobs"), 
             tags=[job["category"].get("tag")] if job["category"].get("tag") else [], 
             publication_date=job["created"], 
             salary=job["salary_is_predicted"]

@@ -1,3 +1,4 @@
+
 from openai import APIConnectionError, APIError, AuthenticationError, RateLimitError
 from pydantic import ValidationError
 
@@ -15,3 +16,4 @@ def format_ai_error(error: Exception) -> str:
         return f"AI response did not match expected schema\n Origin error: {str(error)}"
     else:
         return f"Unexpected error: {str(error)}"
+    

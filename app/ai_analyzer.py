@@ -1,6 +1,7 @@
 from pathlib import Path
 
-from openai import OpenAI
+from openai import OpenAI, RateLimitError
+from tenacity import retry, stop_after_attempt, wait_random_exponential, retry_if_exception
 import json
 
 from app.config import OPENAI_API_KEY, OPENAI_MODEL
@@ -10,12 +11,34 @@ from app.models import AIAnalysis, JobListing
 model=OPENAI_MODEL
 
 
+def is_retryable_rate_limit(error: BaseException) -> bool:
+    if not isinstance(error, RateLimitError):
+        return False
+    error_text = str(error).lower()
+
+    if "requests per day" in error_text or "rpd" in error_text or "daily limit" in error_text:
+        return False
+    return True
+
+@retry(
+        wait=wait_random_exponential(min=6, max=60), 
+        stop=stop_after_attempt(5),
+        retry=retry_if_exception(is_retryable_rate_limit),
+        reraise=True
+)
+def call_openai_with_backoff(*, client: OpenAI, prompt: str) -> AIAnalysis:
+    response = client.responses.parse(
+        model=OPENAI_MODEL, 
+        input=prompt, 
+        text_format=AIAnalysis
+    )
+    return response.output_parsed
 
 def analyze_job_with_ai(*, cv_text: str, job: JobListing, preferences: dict) -> AIAnalysis:
     if not OPENAI_API_KEY:
         raise ValueError("OPENAI_API_KEY not set. Skipping AI analysis.")
     
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    client = OpenAI(api_key=OPENAI_API_KEY, max_retries=0)
     prompt_template = Path("prompts/job_analysis.txt").read_text(encoding="utf-8")
 
     prompt = prompt_template.format(
@@ -23,14 +46,8 @@ def analyze_job_with_ai(*, cv_text: str, job: JobListing, preferences: dict) -> 
         preferences_json=json.dumps(preferences, indent=2),
         job_json=json.dumps(job.model_dump(), indent=2),
     )
-        
-    response = client.responses.parse(
-        model=OPENAI_MODEL, 
-        input=prompt, 
-        text_format=AIAnalysis, 
-        )
-
-    return response.output_parsed
+   
+    return call_openai_with_backoff(client=client, prompt=prompt)
 
 
 def analyze_job_with_mock_ai(*, cv_text: str, job: JobListing, preferences: dict) -> AIAnalysis:

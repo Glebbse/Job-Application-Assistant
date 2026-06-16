@@ -66,3 +66,12 @@ class RunMetaData(BaseModel):
 class RunResult(BaseModel):
     run: RunMetaData
     summary: RunSummary
+    countries: list[str]
+
+
+class FetchedJobsBatches(BaseModel):
+    source: str
+    country: str | None = None
+    fetched_jobs: list[JobListing]
+    filtered_jobs: list[JobListing]
+    jobs_path: str
